@@ -6,7 +6,17 @@
 
     <groupId>com.macro</groupId>
     <artifactId>mall</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>mall-common</module>
+        <module>mall-admin</module>
+        <module>mall-demo</module>
+        <module>mall-mbg</module>
+        <module>mall-portal</module>
+        <module>mall-search</module>
+        <module>mall-security</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
